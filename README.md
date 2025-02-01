@@ -24,23 +24,27 @@
 
 ### 📄 이론 정리 (docs)
 
-1. [HTML 기본 개념](html/docs/01_HTML_기본개념.md)
+1. [HTML 기본 개념](html/docs/01_기본개념.md)
     - HTML 문서의 기본 구조와 주요 태그 설명
-2. [HTML 요소 구조](html/docs/02_HTML_요소구조.md)
+2. [HTML 요소 구조](html/docs/02_요소구조.md)
     - HTML 요소의 구조와 다양한 태그 예제
-3. [HTML 주석 활용법](html/docs/03_HTML_주석활용.md)
+3. [HTML 주석 활용법](html/docs/03_주석활용.md)
     - HTML에서 주석을 사용하는 방법과 활용 사례
+4. [HTML 문서 구조](html/docs/04_문서구조.md)
+    - HTML 문서의 기본 구조와 주요 태그 설명
 
 <br/>
 
 ### 🔗 실행 코드 (examples)
 
-1. [HTML 기본 개념 실행 예제](html/examples/01_HTML_기본개념.html)
+1. [HTML 기본 개념 실행 예제](html/examples/01_기본개념.html)
     - HTML 문서의 기본 구조를 보여주는 예제 코드
-2. [HTML 요소 구조 실행 예제](html/examples/02_HTML_요소구조.html)
+2. [HTML 요소 구조 실행 예제](html/examples/02_요소구조.html)
     - HTML 요소 및 태그 사용 예제 코드
-3. [HTML 주석 활용 실행 예제](html/examples/03_HTML_주석활용.html)
+3. [HTML 주석 활용 실행 예제](html/examples/03_주석활용.html)
     - HTML 주석 활용 예제 코드
+4. [HTML 문서 구조 실행 코드](html/examples/01_문서구조.html)
+    - HTML 문서의 기본 구조를 보여주는 예제 코드
 
 <br/>
 
