@@ -43,7 +43,7 @@
     - HTML 요소 및 태그 사용 예제 코드
 3. [HTML 주석 활용 실행 예제](html/examples/03_주석활용.html)
     - HTML 주석 활용 예제 코드
-4. [HTML 문서 구조 실행 코드](html/examples/01_문서구조.html)
+4. [HTML 문서 구조 실행 코드](html/examples/04_문서구조.html)
     - HTML 문서의 기본 구조를 보여주는 예제 코드
 
 <br/>
