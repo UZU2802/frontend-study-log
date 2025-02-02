@@ -9,31 +9,58 @@
                 color: red;
                 font-weight: bold;
             }
+            [hidden] {
+                display: none;
+            }
         </style>
     </head>
     <body>
         <h1>HTML 글로벌 속성 예제</h1>
 
+        <!-- class 속성 사용 예제 -->
         <p class="highlight">이 문장은 class 속성이 적용된 문장입니다.</p>
 
+        <!-- id 및 title 속성 사용 예제 -->
         <button id="btnClick" title="이 버튼을 클릭하세요!">클릭</button>
 
+        <!-- style 속성 사용 예제 -->
+        <p style="color: blue; font-size: 16px">이 문장은 style 속성이 적용된 문장입니다.</p>
+
+        <!-- lang 속성 사용 예제 -->
         <p lang="en">This text is in English.</p>
         <p lang="ko">이 텍스트는 한국어로 작성되었습니다.</p>
 
-        <p dir="rtl">RTL 방향의 텍스트 예제입니다.</p>
-
-        <input type="text" placeholder="자동 포커스" autofocus />
-
-        <p contenteditable="true">이 텍스트는 편집할 수 있습니다.</p>
-
-        <p spellcheck="true">이 문장은 맞춤법 검사를 지원합니다.</p>
-
-        <button accesskey="s">단축키 (Alt + S)</button>
-
+        <!-- hidden 속성 사용 예제 -->
         <div hidden>이 텍스트는 hidden 속성으로 숨겨져 있습니다.</div>
 
+        <!-- dir 속성 사용 예제 -->
+        <p dir="rtl">RTL 방향의 텍스트 예제입니다.</p>
+
+        <!-- accesskey 속성 사용 예제 -->
+        <button accesskey="s">단축키 (Alt + S)</button>
+
+        <!-- draggable 속성 사용 예제 -->
+        <div draggable="true" style="border: 1px solid black; padding: 10px; width: 200px">
+            이 요소는 드래그할 수 있습니다.
+        </div>
+
+        <!-- spellcheck 속성 사용 예제 -->
+        <p spellcheck="true">이 문장은 맞춤법 검사를 지원합니다.</p>
+
+        <!-- contenteditable 속성 사용 예제 -->
+        <p contenteditable="true">이 텍스트는 편집할 수 있습니다.</p>
+
+        <!-- autofocus 및 tabindex 속성 사용 예제 -->
+        <input type="text" placeholder="자동 포커스" autofocus tabindex="1" />
+
+        <!-- translate 속성 사용 예제 -->
         <p translate="no">이 문장은 번역되지 않습니다.</p>
+
+        <!-- role 속성 사용 예제 -->
+        <div role="alert">이 영역은 경고 메시지로 설정되었습니다.</div>
+
+        <!-- data-* 속성 사용 예제 -->
+        <div data-info="example" data-type="demo">데이터 속성 예제입니다. (info: example, type: demo)</div>
 
         <script>
             document.getElementById('btnClick').addEventListener('click', function () {
